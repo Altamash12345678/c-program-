@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int num[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    char *word[] = {
+        "one", "two", "three", "four", "five",
+        "six", "seven", "eight", "nine", "ten"
+    };
+
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d %s\n", num[i], word[i]);
+    }
+
+    return 0;
+}
